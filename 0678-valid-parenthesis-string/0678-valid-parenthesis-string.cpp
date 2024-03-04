@@ -18,7 +18,7 @@ public:
         }
     }
     while(!st1.empty() && !st2.empty()) {
-        if(st1.top() > st2.top())
+        if(st1.top() > st2.top()) // index comparision 
             return false;
         st1.pop();
         st2.pop();
